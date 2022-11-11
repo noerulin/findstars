@@ -40,12 +40,12 @@ def WriteFile():
 取得目前最新遊戲列表
 """
 async def GetGameList():
-    for i in range(1, 950):
+    for i in range(1, 1000):
         name = str(i) + ': ' + GetGameName(i)[0] + '\n'
         print(name)
 
         m_gameList.append(name)
-        await asyncio.sleep(1)
+        await asyncio.sleep(0.2)
 
     WriteFile()
 
