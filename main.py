@@ -40,7 +40,7 @@ def WriteFile():
 取得目前最新遊戲列表
 """
 async def GetGameList():
-    for i in range(1, 1000):
+    for i in range(1, 1100):
         name = str(i) + ': ' + GetGameName(i)[0] + '\n'
         print(name)
 
