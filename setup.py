@@ -12,12 +12,12 @@ README = (HERE / 'README.md').read_text()
 
 setup(
     name='findstars',
-    version='0.0.2',
+    version='0.0.3',
     description='Original, standard and customisable versions of the Jaro-Winkler functions.',
     long_description=README,
     long_description_content_type='text/markdown',  # Needed by PyPI, which expects reStructuredText by default.
-    author='Richard Milne',
-    author_email='richmilne@hotmail.com',
+    author='noerulin',
+    author_email='noerulin@hotmail.com',
     url='https://github.com/noerulin/findstars.git',
     packages=find_packages(),
     include_package_data=True,   # Include files given in MANIFEST.in
