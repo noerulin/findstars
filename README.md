@@ -1,0 +1,1 @@
+findstars log
